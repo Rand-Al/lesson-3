@@ -1,0 +1,77 @@
+/* Обнуление стилей */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+.logo-text {
+	color: purple;
+}
+.logo > .logo-img {
+	width: 160px;
+}
+.main-header h2 {
+	color: blue;
+}
+.main-img img {
+	width: 300px;
+}
+
+.advantages > .first {
+	color: gray;
+}
+.advantages > .second {
+	color: green;
+}
+.advantages > .third {
+	color: hotpink;
+}
+.advantages > .fourth {
+	color: maroon;
+}
+.how-to-use > h2 {
+	color: midnightblue;
+}
+.kids-up-to-2 > h2 {
+	color: olivedrab;
+}
+.kids-from-6 > h2 {
+	color: orangered;
+}
+.kids-from-15-and-adults > h2 {
+	color: seagreen;
+}
+.how-to-use > p > span {
+	color: tomato;
+}
+.footer-logo img {
+	width: 60px;
+}
+footer a {
+	color: chocolate;
+}
